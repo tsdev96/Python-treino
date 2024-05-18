@@ -1,7 +1,5 @@
 nome = "Guilherme"
 
-#Para passar strings de múltiplas linhas, é necessário passar 3 aspas duplas ou simples. São chamados de strings triplas.
-
 mensagem = f"""
    Olá meu nome é {nome},
  Eu estou aprendendo Python.
@@ -10,7 +8,7 @@ mensagem = f"""
 
 print(mensagem)
 
-#Ele preserva todos os recuos. Seja dentro de uma variável ou direto num print.
+
 print(
     """
     ============= MENU =============

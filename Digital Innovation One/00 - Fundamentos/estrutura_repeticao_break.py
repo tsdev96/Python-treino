@@ -1,11 +1,11 @@
-while True: #Vai executar enquanto for verdade. Vai executar para sempre.
+while True:
     numero = int(input("Informe um número: "))
 
-    if numero == 10: #Se for igual a 10 vai parar a execução do programa.
-        break 
+    if numero == 10:
+        break
 
-    if numero % 2 == 0: 
-        continue #Desviar de alguma condição esperada.
+    if numero % 2 == 0:
+        continue
 
     print(numero)
 

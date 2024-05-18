@@ -1,14 +1,13 @@
 frutas = ["laranja", "maca", "uva"]
 print(frutas)
 
-frutas = [] #Python permite criar listas vazias
+frutas = []
 print(frutas)
 
-letras = list("python") #O bult-in list, faz o slicing da string que estiver dentro dele, transformando numa lista.
-
+letras = list("python")
 print(letras)
 
-numeros = list(range(10)) #Fazendo iteração dentro de list.
+numeros = list(range(10))
 print(numeros)
 
 carro = ["Ferrari", "F8", 4200000, 2020, 2900, "São Paulo", True]

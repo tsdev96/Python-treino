@@ -1,8 +1,6 @@
-# def é utilizado para declarar um método/função
-def sacar(valor): # : inicia o bloco do método sacar
+def sacar(valor):
     saldo = 500
 
-# Os blocos são identificados pela identação do código, o que torna claro.
     if saldo >= valor:
         print("valor sacado!")
         print("retire o seu dinheiro na boca do caixa.")
